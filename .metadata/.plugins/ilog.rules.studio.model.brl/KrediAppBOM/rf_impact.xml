@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="Model.KrediRequest/kartTalebiVarMi/PREDICATE#0">
+            <rule id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+        </vocElt>
+        <vocElt id="Model.KrediRequest/musteriBilgileri/GETTER#0">
+            <rule id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+        </vocElt>
+        <vocElt id="Model.Musteri/yas/GETTER#0">
+            <rule id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+        </vocElt>
+        <vocElt id="Model.Musteri/musteriVadeTalebi/GETTER#0">
+            <rule id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+        </vocElt>
+        <vocElt id="Model.KrediRequest">
+            <rule id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="f3051304-bdd5-4297-a3dd-b5ecc051be3c">
+            <vocElt id="Model.KrediRequest/kartTalebiVarMi/PREDICATE#0"/>
+            <vocElt id="Model.KrediRequest/musteriBilgileri/GETTER#0"/>
+            <vocElt id="Model.Musteri/yas/GETTER#0"/>
+            <vocElt id="Model.Musteri/musteriVadeTalebi/GETTER#0"/>
+            <vocElt id="Model.KrediRequest"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="krediRequest">
+            <rule id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="f3051304-bdd5-4297-a3dd-b5ecc051be3c">
+            <param id="krediRequest"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="4369a2bc-2906-4cd0-a84f-271b1ed0a2f2">
+            <rule id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/KrediAppBOM/bom/model_en_US.voc" id="9fcb7dab-711c-4195-bd4f-56aeab9f86f3">
+            <rule id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/KrediAppBOM/rules/Parametreler.var" id="4369a2bc-2906-4cd0-a84f-271b1ed0a2f2"/>
+        <resource file="/KrediAppBOM/rules/KrediAkısı.rfl" id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+    </resourceTable>
+</impactTables>

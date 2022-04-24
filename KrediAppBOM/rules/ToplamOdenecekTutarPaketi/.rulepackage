@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>ToplamOdenecekTutarPaketi</name>
+  <uuid>3dc227e5-05a8-4b9d-b29d-1a9cebbed6cb</uuid>
+</ilog.rules.studio.model.base:RulePackage>

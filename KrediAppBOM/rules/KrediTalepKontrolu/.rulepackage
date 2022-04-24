@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>KrediTalepKontrolu</name>
+  <uuid>053df624-3aff-41f2-8eaa-7513e71efcfd</uuid>
+</ilog.rules.studio.model.base:RulePackage>

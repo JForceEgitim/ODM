@@ -1,0 +1,32 @@
+<b2x:translation xmlns:b2x="http://schemas.ilog.com/JRules/1.3/Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ilog.com/JRules/1.3/Translation ilog/rules/schemas/1_3/b2x.xsd">
+    <id>bbe685af-f25b-45f3-a4e1-7af09a7ed580</id>
+    <lang>ARL</lang>
+    <class>
+        <businessName>MusteriSeviyesiExcelDomain</businessName>
+        <executionName>java.lang.Integer</executionName>
+        <attribute>
+            <name>BRONZ_MUSTERI</name>
+            <getter language="irl"><![CDATA[
+            return 4;
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>GOLD_MUSTERI</name>
+            <getter language="irl"><![CDATA[
+            return 2;
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>PLATINIUM_MUSTERI</name>
+            <getter language="irl"><![CDATA[
+            return 1;
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>SILVER_MUSTERI</name>
+            <getter language="irl"><![CDATA[
+            return 3;
+            ]]></getter>
+        </attribute>
+    </class>
+</b2x:translation>

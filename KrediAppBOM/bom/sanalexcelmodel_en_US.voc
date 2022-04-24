@@ -1,0 +1,9 @@
+# Vocabulary Properties
+uuid = b4a4912e-701a-4804-8ed2-3a6a7c6acdd9
+
+# MusteriSeviyesiExcelDomain
+MusteriSeviyesiExcelDomain#concept.label = MusteriSeviyesiExcelDomain
+MusteriSeviyesiExcelDomain.BRONZ_MUSTERI#instance.label = BRONZ
+MusteriSeviyesiExcelDomain.GOLD_MUSTERI#instance.label = GOLD
+MusteriSeviyesiExcelDomain.PLATINIUM_MUSTERI#instance.label = PLATİNİUM
+MusteriSeviyesiExcelDomain.SILVER_MUSTERI#instance.label = SİLVER

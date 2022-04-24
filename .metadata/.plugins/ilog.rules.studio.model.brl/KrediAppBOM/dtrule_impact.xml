@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="Model.KrediResponse">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+        </vocElt>
+        <vocElt id="Model.Musteri/maas/GETTER#0">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+            <rule id="e2959289-5cd6-4fc8-8b59-b59134c7cd1c"/>
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+        </vocElt>
+        <vocElt id="Model.KrediResponse/mesaj/SETTER#0">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+        </vocElt>
+        <vocElt id="Model.Musteri/yas/GETTER#0">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+        </vocElt>
+        <vocElt id="Model.Musteri/sigortalıMi/PREDICATE#0">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+        </vocElt>
+        <vocElt id="Model.KrediResponse/kartLimiti/SETTER#0">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+        </vocElt>
+        <vocElt id="Model.KrediResponse/krediOnaylandiMi/PREDICATE_SETTER#0">
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+        </vocElt>
+        <vocElt id="Model.Musteri/musteriVadeTalebi/GETTER#0">
+            <rule id="371a44dd-7280-48b6-b426-fe747ccaa029"/>
+        </vocElt>
+        <vocElt id="MusteriSeviyesiExcelDomain/GOLD_MUSTERI">
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+        </vocElt>
+        <vocElt id="Model.Musteri/krediSkoru/SETTER#0">
+            <rule id="e2959289-5cd6-4fc8-8b59-b59134c7cd1c"/>
+        </vocElt>
+        <vocElt id="Model.KrediRequest/musteriBilgileri/GETTER#0">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+            <rule id="e2959289-5cd6-4fc8-8b59-b59134c7cd1c"/>
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+            <rule id="371a44dd-7280-48b6-b426-fe747ccaa029"/>
+        </vocElt>
+        <vocElt id="Model.Musteri/krediSkoru/GETTER#0">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+            <rule id="e2959289-5cd6-4fc8-8b59-b59134c7cd1c"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+        </vocElt>
+        <vocElt id="Model.Musteri/krediMiktarı/GETTER#0">
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+        </vocElt>
+        <vocElt id="MusteriSeviyesiExcelDomain">
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+        </vocElt>
+        <vocElt id="MusteriSeviyesiExcelDomain/BRONZ_MUSTERI">
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+        </vocElt>
+        <vocElt id="Model.KrediResponse/MusteriSeviyesiSanal/GETTER#0">
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+        </vocElt>
+        <vocElt id="MusteriSeviyesiExcelDomain/SILVER_MUSTERI">
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+        </vocElt>
+        <vocElt id="MusteriSeviyesiExcelDomain/PLATINIUM_MUSTERI">
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+        </vocElt>
+        <vocElt id="Model.KrediRequest">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+            <rule id="e2959289-5cd6-4fc8-8b59-b59134c7cd1c"/>
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+            <rule id="371a44dd-7280-48b6-b426-fe747ccaa029"/>
+        </vocElt>
+        <vocElt id="Model.KrediResponse/MusteriSeviyesiSanal/SETTER#0">
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+        </vocElt>
+        <vocElt id="Model.KrediResponse/krediKartıTuru/SETTER#0">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a">
+            <vocElt id="Model.KrediResponse"/>
+            <vocElt id="Model.Musteri/krediSkoru/GETTER#0"/>
+            <vocElt id="Model.KrediRequest/musteriBilgileri/GETTER#0"/>
+            <vocElt id="Model.Musteri/maas/GETTER#0"/>
+            <vocElt id="Model.Musteri/yas/GETTER#0"/>
+            <vocElt id="Model.Musteri/sigortalıMi/PREDICATE#0"/>
+            <vocElt id="Model.KrediResponse/kartLimiti/SETTER#0"/>
+            <vocElt id="Model.KrediResponse/mesaj/SETTER#0"/>
+            <vocElt id="Model.KrediRequest"/>
+            <vocElt id="Model.KrediResponse/krediKartıTuru/SETTER#0"/>
+        </rule>
+        <rule id="e2959289-5cd6-4fc8-8b59-b59134c7cd1c">
+            <vocElt id="Model.KrediRequest/musteriBilgileri/GETTER#0"/>
+            <vocElt id="Model.Musteri/krediSkoru/GETTER#0"/>
+            <vocElt id="Model.Musteri/maas/GETTER#0"/>
+            <vocElt id="Model.KrediRequest"/>
+            <vocElt id="Model.Musteri/krediSkoru/SETTER#0"/>
+        </rule>
+        <rule id="43ac0a88-8d74-47d9-8079-591f43aef524">
+            <vocElt id="Model.KrediResponse"/>
+            <vocElt id="Model.Musteri/maas/GETTER#0"/>
+            <vocElt id="Model.KrediResponse/mesaj/SETTER#0"/>
+            <vocElt id="Model.KrediResponse/krediOnaylandiMi/PREDICATE_SETTER#0"/>
+            <vocElt id="MusteriSeviyesiExcelDomain/GOLD_MUSTERI"/>
+            <vocElt id="Model.KrediRequest/musteriBilgileri/GETTER#0"/>
+            <vocElt id="Model.Musteri/krediMiktarı/GETTER#0"/>
+            <vocElt id="MusteriSeviyesiExcelDomain"/>
+            <vocElt id="Model.KrediResponse/MusteriSeviyesiSanal/GETTER#0"/>
+            <vocElt id="MusteriSeviyesiExcelDomain/BRONZ_MUSTERI"/>
+            <vocElt id="MusteriSeviyesiExcelDomain/SILVER_MUSTERI"/>
+            <vocElt id="MusteriSeviyesiExcelDomain/PLATINIUM_MUSTERI"/>
+            <vocElt id="Model.KrediRequest"/>
+        </rule>
+        <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0">
+            <vocElt id="Model.KrediResponse"/>
+            <vocElt id="Model.Musteri/krediSkoru/GETTER#0"/>
+            <vocElt id="Model.KrediRequest/musteriBilgileri/GETTER#0"/>
+            <vocElt id="MusteriSeviyesiExcelDomain"/>
+            <vocElt id="MusteriSeviyesiExcelDomain/BRONZ_MUSTERI"/>
+            <vocElt id="MusteriSeviyesiExcelDomain/SILVER_MUSTERI"/>
+            <vocElt id="MusteriSeviyesiExcelDomain/PLATINIUM_MUSTERI"/>
+            <vocElt id="Model.KrediRequest"/>
+            <vocElt id="MusteriSeviyesiExcelDomain/GOLD_MUSTERI"/>
+            <vocElt id="Model.KrediResponse/MusteriSeviyesiSanal/SETTER#0"/>
+        </rule>
+        <rule id="371a44dd-7280-48b6-b426-fe747ccaa029">
+            <vocElt id="Model.KrediRequest/musteriBilgileri/GETTER#0"/>
+            <vocElt id="Model.Musteri/musteriVadeTalebi/GETTER#0"/>
+            <vocElt id="Model.KrediRequest"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="krediRequest">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+            <rule id="e2959289-5cd6-4fc8-8b59-b59134c7cd1c"/>
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+            <rule id="371a44dd-7280-48b6-b426-fe747ccaa029"/>
+        </param>
+        <param id="krediResponse">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+        </param>
+        <param id="limitKatSayısı">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+        </param>
+        <param id="vadeKatSayısı">
+            <rule id="371a44dd-7280-48b6-b426-fe747ccaa029"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a">
+            <param id="krediRequest"/>
+            <param id="krediResponse"/>
+            <param id="limitKatSayısı"/>
+        </rule>
+        <rule id="e2959289-5cd6-4fc8-8b59-b59134c7cd1c">
+            <param id="krediRequest"/>
+        </rule>
+        <rule id="43ac0a88-8d74-47d9-8079-591f43aef524">
+            <param id="krediRequest"/>
+            <param id="krediResponse"/>
+        </rule>
+        <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0">
+            <param id="krediRequest"/>
+            <param id="krediResponse"/>
+        </rule>
+        <rule id="371a44dd-7280-48b6-b426-fe747ccaa029">
+            <param id="krediRequest"/>
+            <param id="vadeKatSayısı"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="4369a2bc-2906-4cd0-a84f-271b1ed0a2f2">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+            <rule id="e2959289-5cd6-4fc8-8b59-b59134c7cd1c"/>
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+            <rule id="371a44dd-7280-48b6-b426-fe747ccaa029"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/KrediAppBOM/bom/model_en_US.voc" id="9fcb7dab-711c-4195-bd4f-56aeab9f86f3">
+            <rule id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+            <rule id="e2959289-5cd6-4fc8-8b59-b59134c7cd1c"/>
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+            <rule id="371a44dd-7280-48b6-b426-fe747ccaa029"/>
+        </vocFile>
+        <vocFile file="/KrediAppBOM/bom/sanalexcelmodel_en_US.voc" id="b4a4912e-701a-4804-8ed2-3a6a7c6acdd9">
+            <rule id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+            <rule id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/KrediAppBOM/rules/MusteriSeviyesiPaketi/MusteriSeviyesiTable.dta" id="fdc3c05e-bc37-49dd-9411-df0eb75e7df0"/>
+        <resource file="/KrediAppBOM/rules/Parametreler.var" id="4369a2bc-2906-4cd0-a84f-271b1ed0a2f2"/>
+        <resource file="/KrediAppBOM/rules/KrediTalepKontrolu/KrediMaasKontroluTable.dta" id="43ac0a88-8d74-47d9-8079-591f43aef524"/>
+        <resource file="/KrediAppBOM/rules/krediKartıOnayPaketi/krediKartıOnay.dta" id="3b8cc9ba-c78c-48e8-bcf2-dc0285e2f61a"/>
+        <resource file="/KrediAppBOM/rules/VadeKatSayısıPaketi/vadeKatSayısıHesaplama.dta" id="371a44dd-7280-48b6-b426-fe747ccaa029"/>
+        <resource file="/KrediAppBOM/rules/SkoreHesaplamaPaketi/MaasSkorTablosu.dta" id="e2959289-5cd6-4fc8-8b59-b59134c7cd1c"/>
+    </resourceTable>
+</impactTables>

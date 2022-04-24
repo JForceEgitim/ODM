@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>krediKartıOnayPaketi</name>
+  <uuid>c47b83b3-a451-447c-a5b4-81debf996918</uuid>
+</ilog.rules.studio.model.base:RulePackage>

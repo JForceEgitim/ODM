@@ -1,0 +1,51 @@
+# Vocabulary Properties
+uuid = 9fcb7dab-711c-4195-bd4f-56aeab9f86f3
+
+# Model.KartBilgileri
+Model.KartBilgileri#concept.label = kart bilgileri
+Model.KartBilgileri.kartBakiyesi#phrase.action = set the kart bakiyesi of {this} to {kart bakiyesi}
+Model.KartBilgileri.kartBakiyesi#phrase.navigation = {kart bakiyesi} of {this}
+Model.KartBilgileri.kartLimiti#phrase.action = set the kart limiti of {this} to {kart limiti}
+Model.KartBilgileri.kartLimiti#phrase.navigation = {kart limiti} of {this}
+Model.KartBilgileri.kartTuru#phrase.action = set the kart turu of {this} to {kart turu}
+Model.KartBilgileri.kartTuru#phrase.navigation = {kart turu} of {this}
+
+# Model.KrediRequest
+Model.KrediRequest#concept.label = kredi request
+Model.KrediRequest.musteriBilgileri#phrase.action = set the musteri bilgileri of {this} to {musteri bilgileri}
+Model.KrediRequest.musteriBilgileri#phrase.navigation = {musteri bilgileri} of {this}
+
+# Model.KrediResponse
+Model.KrediResponse#concept.label = kredi response
+Model.KrediResponse.MusteriSeviyesiSanal#phrase.action = set the musteri seviyesi sanal of {this} to {musteri seviyesi sanal}
+Model.KrediResponse.MusteriSeviyesiSanal#phrase.clearer = clear the musteri seviyesi sanal of {this}
+Model.KrediResponse.MusteriSeviyesiSanal#phrase.navigation = {musteri seviyesi sanal} of {this}
+Model.KrediResponse.krediOnaylandiMi#phrase.action = make it {kredi onaylandi mi} that {this} is kredi onaylandi mi
+Model.KrediResponse.krediOnaylandiMi#phrase.navigation = {this} is kredi onaylandi mi
+Model.KrediResponse.mesaj#phrase.action = set the mesaj of {this} to {mesaj}
+Model.KrediResponse.mesaj#phrase.navigation = {mesaj} of {this}
+Model.KrediResponse.musteriSeviyesi#phrase.action = set the musteri seviyesi of {this} to {musteri seviyesi}
+Model.KrediResponse.musteriSeviyesi#phrase.navigation = {musteri seviyesi} of {this}
+Model.KrediResponse.onaylananTutar#phrase.action = set the onaylanan tutar of {this} to {onaylanan tutar}
+Model.KrediResponse.onaylananTutar#phrase.navigation = {onaylanan tutar} of {this}
+
+# Model.Musteri
+Model.Musteri#concept.label = musteri
+Model.Musteri.ad#phrase.action = set the ad of {this} to {ad}
+Model.Musteri.ad#phrase.navigation = {ad} of {this}
+Model.Musteri.harcamalar#phrase.action = set the harcamalars of {this} to {harcamalar}
+Model.Musteri.harcamalar#phrase.navigation = {harcamalar} of {this}
+Model.Musteri.krediSkoru#phrase.action = set the kredi skoru of {this} to {kredi skoru}
+Model.Musteri.krediSkoru#phrase.navigation = {kredi skoru} of {this}
+Model.Musteri.maas#phrase.action = set the maas of {this} to {maas}
+Model.Musteri.maas#phrase.navigation = {maas} of {this}
+Model.Musteri.musteriKartlari#phrase.action = set the musteri kartlaris of {this} to {musteri kartlari}
+Model.Musteri.musteriKartlari#phrase.navigation = {musteri kartlari} of {this}
+Model.Musteri.odemeDuzenliMi#phrase.action = make it {odeme duzenli mi} that {this} is odeme duzenli mi
+Model.Musteri.odemeDuzenliMi#phrase.navigation = {this} is odeme duzenli mi
+Model.Musteri.soyad#phrase.action = set the soyad of {this} to {soyad}
+Model.Musteri.soyad#phrase.navigation = {soyad} of {this}
+Model.Musteri.tckn#phrase.action = set the tckn of {this} to {tckn}
+Model.Musteri.tckn#phrase.navigation = {tckn} of {this}
+Model.Musteri.yas#phrase.action = set the yas of {this} to {yas}
+Model.Musteri.yas#phrase.navigation = {yas} of {this}

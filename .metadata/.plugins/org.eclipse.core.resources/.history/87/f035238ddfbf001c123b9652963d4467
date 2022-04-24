@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>MaasHarcamaKontrolu</name>
+  <uuid>07f61806-7067-4f33-8ca4-979e8de40bb2</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+toplamHarcamaTutarı is more than the maas of the musteri bilgileri of krediRequest
+then
+make it false that krediResponse is kredi onaylandi mi ; 
+set the mesaj of krediResponse to "toplam harcam tutarınız maaşınızdan fazladır.Ayağınızı yorganınıza göre uzatın." ; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

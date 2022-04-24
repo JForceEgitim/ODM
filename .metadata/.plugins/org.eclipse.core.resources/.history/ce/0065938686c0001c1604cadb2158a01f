@@ -1,0 +1,19 @@
+
+property uuid "7adc0df0-86b8-46bd-a356-a7c3672ca67f"
+
+public class MusteriSeviyesiExcelDomain
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "1"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.en" "2"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "0"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "0"
+        property domainProviderResource "musteriseviyesi.XLSX"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static PLATINIUM_MUSTERI, static GOLD_MUSTERI, static SILVER_MUSTERI, static BRONZ_MUSTERI}
+    public static final readonly MusteriSeviyesiExcelDomain BRONZ_MUSTERI;
+    public static final readonly MusteriSeviyesiExcelDomain GOLD_MUSTERI;
+    public static final readonly MusteriSeviyesiExcelDomain PLATINIUM_MUSTERI;
+    public static final readonly MusteriSeviyesiExcelDomain SILVER_MUSTERI;
+}
+

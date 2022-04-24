@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>KrediAkisi</name>
+  <uuid>140d20a6-6877-440b-8a64-b8f1dae62f5b</uuid>
+  <locale>en_US</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_7"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="ToplamHarcamaPaketi" Ordering="Default">
+        <RuleList>
+          <Package Name="ToplamHarcamaPaketi"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="SkoreHesaplamaPaketi" Ordering="Default">
+        <RuleList>
+          <Package Name="SkoreHesaplamaPaketi"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="YasPaketi" Ordering="Default">
+        <RuleList>
+          <Package Name="YasPaketi"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="MaasHarcamaKontrolu" Ordering="Default">
+        <RuleList>
+          <Package Name="MaasHarcamaKontrolu"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="SkorOnayPaketi" Ordering="Default">
+        <RuleList>
+          <Package Name="SkorOnayPaketi"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_1"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_2" Task="ToplamHarcamaPaketi"/>
+      <TaskNode Identifier="node_7" Task="task_7"/>
+      <TaskNode Identifier="node_8" Task="SkoreHesaplamaPaketi"/>
+      <TaskNode Identifier="node_6" Task="YasPaketi"/>
+      <TaskNode Identifier="node_5" Task="MaasHarcamaKontrolu"/>
+      <TaskNode Identifier="node_3" Task="SkorOnayPaketi"/>
+      <TaskNode Identifier="node_1" Task="task_1"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_16" Source="node_8" Target="node_3"/>
+      <Transition Identifier="transition_15" Source="node_2" Target="node_8"/>
+      <Transition Identifier="transition_6" Source="node_6" Target="node_1"/>
+      <Transition Identifier="transition_5" Source="node_5" Target="node_6"/>
+      <Transition Identifier="transition_1" Source="node_7" Target="node_2"/>
+      <Transition Identifier="transition_17" Source="node_3" Target="node_5"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="en_US">
+      <Data Name="node_2#height">40.0</Data>
+      <Data Name="node_3#height">40.0</Data>
+      <Data Name="node_1#height">20.999998</Data>
+      <Data Name="node_7#y">10.5</Data>
+      <Data Name="node_8#x">83.69824</Data>
+      <Data Name="node_8#y">181.00002</Data>
+      <Data Name="node_7#height">21.0</Data>
+      <Data Name="node_6#height">40.0</Data>
+      <Data Name="node_5#height">40.0</Data>
+      <Data Name="node_7#width">21.0</Data>
+      <Data Name="node_8#height">40.0</Data>
+      <Data Name="node_2#width">165.03271</Data>
+      <Data Name="node_3#y">271.0</Data>
+      <Data Name="node_5#x">83.69824</Data>
+      <Data Name="node_6#x">83.69824</Data>
+      <Data Name="node_5#y">361.0</Data>
+      <Data Name="node_7#x">83.69824</Data>
+      <Data Name="node_6#y">451.0</Data>
+      <Data Name="node_5#width">164.71875</Data>
+      <Data Name="node_1#x">83.69824</Data>
+      <Data Name="node_2#x">83.69824</Data>
+      <Data Name="node_1#y">531.5</Data>
+      <Data Name="node_2#y">91.0</Data>
+      <Data Name="node_3#x">83.69824</Data>
+      <Data Name="node_1#name">node_2</Data>
+      <Data Name="node_3#width">128.70703</Data>
+      <Data Name="node_8#width">167.39648</Data>
+      <Data Name="node_7#name">node_0</Data>
+      <Data Name="node_1#width">21.000021</Data>
+      <Data Name="node_6#width">102.0</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow></rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

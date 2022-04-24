@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <SubFlow id="a6589156-af0a-4d4d-9f1d-21fb5dc2074c" path="rules/krediKartAkısı.rfl">
+        <UserFlow id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+    </SubFlow>
+    <Package id="SkoreHesaplamaPaketi">
+        <UserFlow id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+    </Package>
+    <Package id="ToplamOdenecekTutarPaketi">
+        <UserFlow id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+    </Package>
+    <Package id="MaxVadeRed">
+        <UserFlow id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+    </Package>
+    <Package id="krediKartıOnayPaketi">
+        <UserFlow id="a6589156-af0a-4d4d-9f1d-21fb5dc2074c"/>
+    </Package>
+    <Package id="MaasHarcamaKontrolu">
+        <UserFlow id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+    </Package>
+    <Package id="VadeKatSayısıPaketi">
+        <UserFlow id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+    </Package>
+    <Package id="ToplamHarcamaPaketi">
+        <UserFlow id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+    </Package>
+    <Package id="MusteriSeviyesiPaketi">
+        <UserFlow id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+    </Package>
+    <Package id="SkorOnayPaketi">
+        <UserFlow id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+    </Package>
+    <Package id="YasPaketi">
+        <UserFlow id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+    </Package>
+    <Package id="KrediTalepKontrolu">
+        <UserFlow id="f3051304-bdd5-4297-a3dd-b5ecc051be3c"/>
+    </Package>
+</ImpactedElements>

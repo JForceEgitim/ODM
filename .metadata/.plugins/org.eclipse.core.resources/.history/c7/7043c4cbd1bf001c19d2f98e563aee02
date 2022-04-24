@@ -1,0 +1,31 @@
+package Model;
+
+public class KrediResponse {
+	
+	private Boolean krediOnaylandiMi;
+	private String mesaj;
+	private int onaylananTutar;
+	
+	
+	
+	public Boolean getKrediOnaylandiMi() {
+		return krediOnaylandiMi;
+	}
+	public void setKrediOnaylandiMi(Boolean krediOnaylandiMi) {
+		this.krediOnaylandiMi = krediOnaylandiMi;
+	}
+	public String getMesaj() {
+		return mesaj;
+	}
+	public void setMesaj(String mesaj) {
+		this.mesaj = mesaj;
+	}
+	public int getOnaylananTutar() {
+		return onaylananTutar;
+	}
+	public void setOnaylananTutar(int onaylananTutar) {
+		this.onaylananTutar = onaylananTutar;
+	}
+	
+	
+}
